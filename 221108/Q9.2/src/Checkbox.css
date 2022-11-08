@@ -1,0 +1,9 @@
+input {
+  font-size: ;
+}
+
+.boxes {
+  display: inline-block;
+  margin: 1.75rem;
+  transform: scale(2);
+}
