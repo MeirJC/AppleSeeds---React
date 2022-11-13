@@ -1,0 +1,41 @@
+body {
+  overflow: hidden;
+}
+
+.box {
+  outline: 3px solid #ddd;
+  padding: 1rem 2rem;
+  border-radius: 0.65rem;
+  animation: Mover 10s ease-in-out;
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes Mover {
+  0% {
+    display: block;
+    left: -70vw;
+  }
+
+  10% {
+    display: block;
+    left: 0;
+  }
+
+  50% {
+    display: block;
+    left: 0;
+  }
+
+  60% {
+    display: initial;
+    left: 70vw;
+  }
+
+  80% {
+    display: block;
+  }
+}
